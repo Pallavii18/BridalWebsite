@@ -1,0 +1,344 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+import java.sql.*;
+import java.io.*;
+
+public final class feedback_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  static {
+    _jspx_dependants = new java.util.ArrayList<String>(1);
+    _jspx_dependants.add("/dbconnection.jsp");
+  }
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write('\n');
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>JSP Page</title>\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("       \n");
+      out.write("        ");
+
+            Class.forName("com.mysql.jdbc.Driver");
+            java.sql.Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bridal","root","root");
+            
+                    
+            
+      out.write("\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html lang=\"en\">\n");
+      out.write("<!-- Basic -->\n");
+      out.write("\n");
+      out.write("<head>\n");
+      out.write("    <meta charset=\"utf-8\">\n");
+      out.write("    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n");
+      out.write("\n");
+      out.write("    <!-- Mobile Metas -->\n");
+      out.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
+      out.write("\n");
+      out.write("    <!-- Site Metas -->\n");
+      out.write("    \n");
+      out.write("    <meta name=\"keywords\" content=\"\">\n");
+      out.write("    <meta name=\"description\" content=\"\">\n");
+      out.write("    <meta name=\"author\" content=\"\">\n");
+      out.write("\n");
+      out.write("    <!-- Site Icons -->\n");
+      out.write("    <link rel=\"shortcut icon\" href=\"images/favicon.ico\" type=\"image/x-icon\">\n");
+      out.write("    <link rel=\"apple-touch-icon\" href=\"images/apple-touch-icon.png\">\n");
+      out.write("\n");
+      out.write("    <!-- Bootstrap CSS -->\n");
+      out.write("    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n");
+      out.write("    <!-- Site CSS -->\n");
+      out.write("    <link rel=\"stylesheet\" href=\"css/style.css\">\n");
+      out.write("    <!-- Responsive CSS -->\n");
+      out.write("    <link rel=\"stylesheet\" href=\"css/responsive.css\">\n");
+      out.write("    <!-- Custom CSS -->\n");
+      out.write("    <link rel=\"stylesheet\" href=\"css/custom.css\">\n");
+      out.write("\n");
+      out.write("    <!--[if lt IE 9]>\n");
+      out.write("      <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n");
+      out.write("      <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n");
+      out.write("    <![endif]-->\n");
+      out.write(" <style>\n");
+      out.write("        body {\n");
+      out.write("            font-family: Arial, sans-serif;\n");
+      out.write("            background-color: #f4f4f4;\n");
+      out.write("            margin: 0;\n");
+      out.write("            padding: 0;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("        form {\n");
+      out.write("            margin: 50px auto;\n");
+      out.write("            background: #fff;\n");
+      out.write("            padding: 40px;\n");
+      out.write("            border-radius: 10px;\n");
+      out.write("            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);\n");
+      out.write("            max-width: 500px;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("        h2 {\n");
+      out.write("            text-align: center;\n");
+      out.write("            color: #333;\n");
+      out.write("            margin-bottom: 20px;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("        table {\n");
+      out.write("            width: 100%;\n");
+      out.write("            border-collapse: collapse;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("        td {\n");
+      out.write("            padding: 10px;\n");
+      out.write("            border: 2px solid #ccc;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("        input[type=\"text\"],\n");
+      out.write("        textarea {\n");
+      out.write("            width: calc(100% - 20px);\n");
+      out.write("            padding: 8px;\n");
+      out.write("            border-radius: 5px;\n");
+      out.write("            border: 1px solid #ccc;\n");
+      out.write("            box-sizing: border-box;\n");
+      out.write("            margin-top: 5px;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("        textarea {\n");
+      out.write("            resize: vertical;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("        input[type=\"submit\"] {\n");
+      out.write("            background-color: palevioletred;\n");
+      out.write("            color: #fff;\n");
+      out.write("            border: none;\n");
+      out.write("            padding: 10px 20px;\n");
+      out.write("            border-radius: 5px;\n");
+      out.write("            cursor: pointer;\n");
+      out.write("            transition: background-color 0.3s ease;\n");
+      out.write("            margin-top: 20px;\n");
+      out.write("            display: block;\n");
+      out.write("            margin-left: auto;\n");
+      out.write("            margin-right: auto;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("        input[type=\"submit\"]:hover {\n");
+      out.write("            background-color: #d46a96;\n");
+      out.write("        }\n");
+      out.write("    </style>\n");
+      out.write("</head>\n");
+      out.write("\n");
+      out.write("<body>\n");
+      out.write("  ");
+
+        String nm=(String)session.getAttribute("unm1");
+    
+      out.write("\n");
+      out.write("    <!-- Start Main Top -->\n");
+      out.write("    \n");
+      out.write("    <!-- End Main Top -->\n");
+      out.write("\n");
+      out.write("    <!-- Start Main Top -->\n");
+      out.write("    <header class=\"main-header\">\n");
+      out.write("         \n");
+      out.write("        <!-- Start Navigation -->\n");
+      out.write("        <nav class=\"navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav\">\n");
+      out.write("            <div class=\"container\">\n");
+      out.write("                <!-- Start Header Navigation -->\n");
+      out.write("               \n");
+      out.write("                <!-- End Header Navigation -->\n");
+      out.write("\n");
+      out.write("                <!-- Collect the nav links, forms, and other content for toggling -->\n");
+      out.write("                <div class=\"collapse navbar-collapse\" id=\"navbar-menu\" style=\"font-family: long\">\n");
+      out.write("                    <ul class=\"nav navbar-nav ml-auto\" data-in=\"fadeInDown\" data-out=\"fadeOutUp\">\n");
+      out.write("                        <li class=\"nav-item active\"><a class=\"nav-link\" href=\"adminhomepage.jsp\">Home</a></li>\n");
+      out.write("                       \n");
+      out.write("                       \n");
+      out.write("                        <li class=\"nav-item\"><a class=\"nav-link\" href=\"feedback.jsp\">FeedBack</a></li>\n");
+      out.write("                       \n");
+      out.write("                        <li class=\"nav-item\"><a class=\"nav-link\" href=\"logout.jsp\">LogOut</a></li>\n");
+      out.write("                    </ul>\n");
+      out.write("                </div>\n");
+      out.write("                <!-- /.navbar-collapse -->\n");
+      out.write("\n");
+      out.write("                <!-- Start Atribute Navigation -->\n");
+      out.write("                \n");
+      out.write("                <!-- End Atribute Navigation -->\n");
+      out.write("            </div>\n");
+      out.write("            <!-- Start Side Menu -->\n");
+      out.write("            \n");
+      out.write("            <!-- End Side Menu -->\n");
+      out.write("        </nav>\n");
+      out.write("        <!-- End Navigation -->\n");
+      out.write("    </header>\n");
+      out.write("    <!-- End Main Top -->\n");
+      out.write("\n");
+      out.write("    <!-- Start Top Search -->\n");
+      out.write("   \n");
+      out.write("    <!-- End Top Search -->\n");
+      out.write("\n");
+      out.write("    <!-- Start All Title Box -->\n");
+      out.write("    <div class=\"all-title-box\">\n");
+      out.write("        <div class=\"container\">\n");
+      out.write("            <div class=\"row\">\n");
+      out.write("                <div class=\"col-lg-12\">\n");
+      out.write("                    <div class=\"col-lg-12\">\n");
+      out.write("                    <h1>RK</h1>\n");
+      out.write("                   \n");
+      out.write("                </div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("    </div></br>\n");
+      out.write("     <!-- End All Title Box -->\n");
+      out.write("\n");
+      out.write("    <!-- Start About Page  -->\n");
+      out.write("  \n");
+      out.write("    \n");
+      out.write("    <!-- End About Page -->\n");
+      out.write("    \n");
+      out.write("<center><div class=\"about-box-main\" style=\"font-family: long\">\n");
+      out.write("        <div class=\"container\">\n");
+      out.write("            <div class=\"col-lg-6\">\n");
+      out.write("                    <center>_______________<span style=\"font-size:500%;color:palevioletred;\">&hearts;</span>_______________</center>\n");
+      out.write("                    <h2 class=\"noo-sh-title-top\"><center> <span>FeedBack</span></h2>\n");
+      out.write("                    <form>\n");
+      out.write("                        <table border=\"2\" width=\"450px\" height=\"300px\" bgcolor=\"pink\">            \n");
+      out.write("                            <tbody>\n");
+      out.write("                               <tr>\n");
+      out.write("                                   <td width=\"300px\" align=\"center\"><b><h2>Name</h2></b></td>\n");
+      out.write("                                    <td width=\"300px\" align=\"center\"><input type=\"text\" name=\"txtnm\" value=\"\"/></td>\n");
+      out.write("                                </tr>\n");
+      out.write("                               \n");
+      out.write("                                <tr>\n");
+      out.write("                                    <td width=\"300px\" align=\"center\"><b><h2>Email Id</h2></b></td>\n");
+      out.write("                                     <td width=\"300px\" align=\"center\"><input type=\"text\" name=\"txteid\" value=\"\"/></td>\n");
+      out.write("                                </tr>\n");
+      out.write("                                 <tr>\n");
+      out.write("                                     <td width=\"300px\" align=\"center\"><b><h2>Feedback</h2></b></td>\n");
+      out.write("                                    <td width=\"300px\" align=\"center\"><textarea name=\"txtfeed\" rows=\"4\" cols=\"20\"></textarea></td>\n");
+      out.write("                                </tr> \n");
+      out.write("                                \n");
+      out.write("                            <td  width=\"30px\" align=\"center\" colspan=\"2\"><input type=\"submit\" value=\"Submit\" name=\"Submit\" style=\"background-color: palevioletred\" />\n");
+      out.write("                                   \n");
+      out.write("                                 \n");
+      out.write("                                   \n");
+      out.write("                            </tbody>\n");
+      out.write("                        </table>\n");
+      out.write("                        ");
+
+                        String nm1 =request.getParameter("txtnm");
+                        String mailid =request.getParameter("txteid");
+                        String feed =request.getParameter("txtfeed");
+                        
+                        if(nm1!=null && nm1!="" && mailid!=null && mailid!="" && feed!=null && feed!="")
+                            {
+                                Statement stmt=con.createStatement();
+                                String str="insert into feedback(name,email_id,feedback)values('"+nm1+"','"+mailid+"','"+feed+"')";
+                                 int b=stmt.executeUpdate(str);
+                                out.println("<script>alert('Your Feedback Success')</script>");
+                            }
+
+                        
+      out.write("\n");
+      out.write("                </form>\n");
+      out.write("           </div>\n");
+      out.write("    </div>\n");
+      out.write(" </div></center></br></br></br>\n");
+      out.write("\n");
+      out.write("    <!-- Start Instagram Feed  -->\n");
+      out.write("   \n");
+      out.write("    <!-- End Instagram Feed  -->\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("    <!-- Start Footer  -->\n");
+      out.write("   \n");
+      out.write("    <!-- End Footer  -->\n");
+      out.write("\n");
+      out.write("    <!-- Start copyright  -->\n");
+      out.write("    <div class=\"footer-copyright\">\n");
+      out.write("        <p class=\"footer-company\" style=\"font-family: long; font-size: 25px\"> Design    By  :Pallavii    Walke\n");
+      out.write("           </p>\n");
+      out.write("    </div>\n");
+      out.write("    <!-- End copyright  -->\n");
+      out.write("\n");
+      out.write("    \n");
+      out.write("    <!-- ALL JS FILES -->\n");
+      out.write("    <script src=\"js/jquery-3.2.1.min.js\"></script>\n");
+      out.write("    <script src=\"js/popper.min.js\"></script>\n");
+      out.write("    <script src=\"js/bootstrap.min.js\"></script>\n");
+      out.write("    <!-- ALL PLUGINS -->\n");
+      out.write("    <script src=\"js/jquery.superslides.min.js\"></script>\n");
+      out.write("    <script src=\"js/bootstrap-select.js\"></script>\n");
+      out.write("    <script src=\"js/inewsticker.js\"></script>\n");
+      out.write("    <script src=\"js/bootsnav.js.\"></script>\n");
+      out.write("    <script src=\"js/images-loded.min.js\"></script>\n");
+      out.write("    <script src=\"js/isotope.min.js\"></script>\n");
+      out.write("    <script src=\"js/owl.carousel.min.js\"></script>\n");
+      out.write("    <script src=\"js/baguetteBox.min.js\"></script>\n");
+      out.write("    <script src=\"js/form-validator.min.js\"></script>\n");
+      out.write("    <script src=\"js/contact-form-script.js\"></script>\n");
+      out.write("    <script src=\"js/custom.js\"></script>\n");
+      out.write("</body>\n");
+      out.write("\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

@@ -1,0 +1,25 @@
+SMAP
+searchproduct_jsp.java
+JSP
+*S JSP
+*F
++ 0 searchproduct.jsp
+searchproduct.jsp
++ 1 dbconnection.jsp
+dbconnection.jsp
+*L
+5:50
+5#1,13:51
+18,5:65
+22,4:70
+6#0,49:73
+55,3:123
+57,8:126
+65:134,3
+66,146:137
+211,2:283
+213:285,21
+214,3:306
+216,2:308
+217,122:310
+*E

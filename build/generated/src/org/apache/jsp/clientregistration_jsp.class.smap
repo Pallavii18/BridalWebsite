@@ -1,0 +1,17 @@
+SMAP
+clientregistration_jsp.java
+JSP
+*S JSP
+*F
++ 0 clientregistration.jsp
+clientregistration.jsp
++ 1 dbconnection.jsp
+dbconnection.jsp
+*L
+5:50
+5#1,13:51
+18,5:65
+22,4:70
+6#0,180:73
+185,54:253
+*E

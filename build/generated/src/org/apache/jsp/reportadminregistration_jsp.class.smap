@@ -1,0 +1,22 @@
+SMAP
+reportadminregistration_jsp.java
+JSP
+*S JSP
+*F
++ 0 reportadminregistration.jsp
+reportadminregistration.jsp
++ 1 dbconnection.jsp
+dbconnection.jsp
+*L
+5:50
+5#1,13:51
+18,5:65
+22,4:70
+6#0,137:73
+144,24:211
+167,2:235
+169:237,9
+170,3:246
+173:249,2
+174,121:251
+*E
